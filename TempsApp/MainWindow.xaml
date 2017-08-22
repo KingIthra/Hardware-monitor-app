@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TempsApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="449.254" Width="706.76">
+    <Grid Background="#FFF1F0F0">
+        <Label   Content="Label" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="183,62,165,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="351" FontFamily="Microsoft JhengHei" FontSize="42" HorizontalContentAlignment="Center" IsEnabled="False" Background="{x:Null}"/>
+        <Label   Content="0 C" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="183,151,165,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="351" FontFamily="Microsoft JhengHei" FontSize="100" HorizontalContentAlignment="Center"  Background="{x:Null}"/>
     </Grid>
 </Window>
