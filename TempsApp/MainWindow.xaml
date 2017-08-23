@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="449.254" Width="706.76">
     <Grid Background="#FFF1F0F0">
-        <Label   Content="Label" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="183,62,165,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="351" FontFamily="Microsoft JhengHei" FontSize="42" HorizontalContentAlignment="Center" IsEnabled="False" Background="{x:Null}"/>
-        <Label   Content="0 C" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="183,151,165,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="351" FontFamily="Microsoft JhengHei" FontSize="100" HorizontalContentAlignment="Center"  Background="{x:Null}"/>
+        <Label   Content="CPU Temp" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="235,123,268,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="196" FontFamily="Microsoft JhengHei" FontSize="32" HorizontalContentAlignment="Center" IsEnabled="False" Background="{x:Null}"/>
+        <Label x:Name="temp"   Content="0 C" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="235,181,268,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="196" FontFamily="Microsoft JhengHei" FontSize="70" HorizontalContentAlignment="Center"  Background="{x:Null}"/>
+        <Label x:Name="cpuUsage"   Content="0%" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="23,123,493,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="183" FontFamily="Microsoft JhengHei" FontSize="50" HorizontalContentAlignment="Center"  Background="{x:Null}"/>
+        <Label x:Name="ramUsage"   Content="0Mb" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="460,123,29,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="210" FontFamily="Microsoft JhengHei" FontSize="50" HorizontalContentAlignment="Center"  Background="{x:Null}"/>
+        <Label   Content="CPU " VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="23,70,516,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="160" FontFamily="Microsoft JhengHei" FontSize="32" HorizontalContentAlignment="Center" IsEnabled="False" Background="{x:Null}"/>
+        <Label   Content="Ram " VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="510,70,29,0" VerticalAlignment="Top" RenderTransformOrigin="1.432,-0.276" Width="160" FontFamily="Microsoft JhengHei" FontSize="32" HorizontalContentAlignment="Center" IsEnabled="False" Background="{x:Null}"/>
     </Grid>
 </Window>
